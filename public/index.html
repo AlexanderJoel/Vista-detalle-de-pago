@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="stylesheet" href="./build/global.css">
+    <title>GYBA Team Checkout</title>
+</head>
+
+<body>
+
+    <div class="container bg-white">
+        <div class="mb-4 mx-12 relative">
+            <div class="m-auto flex justify-between items-stretch">
+                <div class="inline-flex pt-3">
+                    <a href="#" class="no-underline cursor-pointer">
+                        <img class="logo" src="./assets/logo.png" alt="">
+                    </a>
+                </div>
+                <ul class="text-sm flex items-center bg-gray-400 rounded-b-lg py-4 px-6 h-12">
+                    <li>Iniciar</li>
+                </ul>
+            </div>
+        </div>
+        <h2 class="flex justify-left mb-0 px-6 font-medium text-3xl">
+            ¡Falta poco! Completa tus datos y finaliza tu compra</h2>     
+        </div>
+        <div class="flex  flex-wrap">
+            <div class="w-full md:w-2/3  p-4 text-gray-200">
+                
+                    <div class="bg-blue-200 text-black relative z-0 overflow-visible py-6 px-5 rounded-lg">
+                        <span class="text-2xl"> ¿Cómo deseas pagar? </span>
+                        <div class="mt-2">
+                            <div>
+                              <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio text-indigo-600" name="radio-colors" value="1" checked>
+                                <span class="ml-2">Tarjeta de Credito</span>
+                              </label>
+                            </div>
+                            <div>
+                              <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio text-green-500" name="radio-colors" value="2">
+                                <span class="ml-2">Deposito Bancario</span>
+                              </label>
+                            </div>
+                            <div>
+                              <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio text-pink-600" name="radio-colors" value="3">
+                                <span class="ml-2">Transferencia Bancaria</span>
+                              </label>
+                            </div>
+                          </div>
+                    </div>                
+                
+                    <div class="my-5 bg-blue-200 text-black relative z-0 overflow-visible py-6 px-5 rounded-lg">
+                        <span class="text-2xl"> Ingresa los datos de la tarjeta </span>
+                        <div class="my-2">
+                            <div class="flex-1">
+                                <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Número de Tarjeta</label>
+                                <div class="relative">
+                                    <input
+                                        class="text-black bg-white pl-5 h-10 py-0 px-3 rounded w-64 text-sm border-black shadow-none border-solid"
+                                        type="text" placeholder="Ingrese el número de tarjeta">
+                                </div>
+                            </div>
+                            <div class="flex-1 ml-1 my-2">
+                                <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Vencimiento</label>
+                                <div class="relative">
+                                    <input
+                                        class="text-black bg-white pl-2 h-10 py-0 px-3 rounded w-20 text-sm border-black shadow-none border-solid"
+                                        type="text" placeholder="MM/AA">
+                                </div>
+                            </div>
+                            <div class="flex-1 ml-1 my-2">
+                                <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Cód. Seguridad</label>
+                                <div class="relative">
+                                    <input
+                                        class="text-black bg-white pl-2 h-10 py-0 px-3 rounded w-20 text-sm border-black shadow-none border-solid"
+                                        type="number">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Titular de la Tarjeta</label>
+                                <div class="relative">
+                                    <input
+                                        class="text-black bg-white pl-5 h-10 py-0 px-3 rounded w-64 text-sm border-black shadow-none border-solid"
+                                        type="text" placeholder="Como figura en la tarjeta">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Documento del titular de la Tarjeta</label>
+                                <div class="relative">
+                                    <input
+                                        class="text-black bg-white pl-5 h-10 py-0 px-3 rounded w-56 text-sm border-black shadow-none border-solid"
+                                        type="text" placeholder="Ej: 15248496">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="my-5 bg-blue-200 text-black relative z-0 overflow-visible py-6 px-5 rounded-lg">
+                    <span class="text-2xl">Titular de la actividad </span><br>
+                    <span class="text-1xl">Será registrado como responsable de la reserva</span><br>
+                    <span class="text-2xl">Excursión de Volcanes: Cotopaxi y Quilotoa</span>
+                    <div class="mt-2">
+                        <div class="flex-1">
+                            <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Nombres</label>
+                            <div class="relative">
+                                <input
+                                    class="text-black bg-white pl-5 h-10 py-0 px-3 rounded w-64 text-sm border-black shadow-none border-solid"
+                                    type="text" placeholder="Como figura en el documento de viaje">
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <label class="mb-2 block text-xs uppercase font-medium tracking-wide">Apellidos</label>
+                            <div class="relative">
+                                <input
+                                    class="text-black bg-white pl-5 h-10 py-0 px-3 rounded w-64 text-sm border-black shadow-none border-solid"
+                                    type="text" placeholder="Como figura en el documento de viaje">
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="w-5 md:w-1/3 bg-white p-4 text-gray-700">
+                <div class="bg-blue-200 text-black relative z-0 overflow-visible py-6 px-5 rounded-lg">
+                    <span class="text-2xl"> Detalle del pago </span><br><br>
+                    <p>
+                        Excursión para una persona<br>
+                        USD 44<br>
+                        Impuestos y tasas<br>
+                        USD 1
+                    </p>
+                    <span class="text-2xl"> Total USD 45 </span>
+                </div>
+                <div class="my-5 bg-blue-200 text-black relative z-0 overflow-visible py-6 px-5 rounded-lg">
+                    <span class="text-2xl"> Detalle de la Compra </span><br><br>
+                    <p>
+                        Fecha y horario<br>
+                        21 ene 2020<br>
+                        06:55 AM
+                    </p><br>
+                    <p class="text-1xl text-justify">
+                        Salida temprano en la mañana desde nuestros hoteles designados, por la vía "Panamericana Sur" apreciando hermosos paisajes y diversos ecosistemas, como una muestra clara de la majestuosidad de los Andes. Seguimos hasta el Parque Nacional Cotopaxi, llegando a las faldas del impresionante volcán activo.<br><br>
+                        Visitaremos el Museo del Parque, la Laguna de Limpiopungo y realizando una interesante caminata llegaremos hasta el bosque de las chuquirahuas a 4200 msnm. (Si el tiempo lo permite).<br><br>
+                        Continuaremos hacia al Volcán Quilotoa, que tiene en su cráter una impresionante laguna de color turquesa, convirtiéndose así en uno de los más hermosos y fotografiados paisajes del Ecuador. Realizaremos una corta caminata, para apreciar la magnífica vista del volcán (si es que las condiciones climatológicas lo permiten).<br>
+                        Tiempo libre para el almuerzo (no incluido). Y retorno a Quito por la tarde.<br><br>
+                        *No incluye: entrada al Parque Nacional Cotopaxi.</p>
+                </div>
+
+            </div>
+        
+        
+        
+    
+</body>
+
+</html>

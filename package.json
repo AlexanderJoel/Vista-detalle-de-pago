@@ -1,0 +1,21 @@
+{
+  "name": "app-despegar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=./public",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "GYBA Team",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1"
+  }
+}
